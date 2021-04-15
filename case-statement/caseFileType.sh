@@ -2,6 +2,7 @@
 
 for fileName in $(ls)
 do
+	echo $fileName
 	ext=${fileName##*\.}
 	case "$ext" in
 		java)
